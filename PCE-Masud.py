@@ -437,8 +437,8 @@ class PCEvsMC:
         }
 
 def main():
-    file_path = '/Users/masudbabayev/Library/CloudStorage/OneDrive-KFUPM/PhD/PhD Courses/Uncertainty Quantification in eng/PCE Project'
-    input_file = '5000SAMPLE WITH PERMK.csv'
+    file_path = 'your_pathway'
+    input_file = 'your_datafile.csv'
 
     try:
         pce_mc = PCEvsMC(file_path, input_file)
